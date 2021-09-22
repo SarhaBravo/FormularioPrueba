@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-image: linear-gradient(to right bottom, #45372c, #534336, #614f41, #705c4c, #7f6957);
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+}
+
+section {
+    background-color: #1e1310;
+    width: 100%;
+    height: 600px;
+}
+
+.leaf h1 {
+    color: white;
+    font-size: 75px;
+    margin-left: 100px;
+}
+
+.leaf h3 {
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+a {
+    color: white;
+    margin-left: 100px;
+}

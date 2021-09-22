@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <a href="./index.html">Regresar a la página principal</a>
+    <!-- <table>
+        <tr>
+            <td>usuario</td>
+            <td>contraseña</td>
+            <td>correo</td>
+        </tr>
+
+        <tr>
+            <td>sarhabravo</td>
+            <td>12345</td>
+            <td>bravasarha@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>roberto</td>
+            <td>12345</td>
+            <td>robertoalfredo@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>jeremiassebastian</td>
+            <td>12345</td>
+            <td>jeremiasebastian@gmail.com</td>
+        </tr>
+
+    </table> -->
+    
+    <form>
+        <fieldset>
+            <!-- <legend>Datos del usuario</legend> -->
+            <h1>Datos del usuario</h1>
+            <input
+            type="text"
+            placeholder="Usuario"
+            name="usuario"
+            id="usuario"
+            required
+            maxlength="10"
+            minlength="5"
+            >
+            <br>
+            <input
+            type="password"
+            placeholder="Clave"
+            name="clave"
+            id="clave"    
+            required
+            >
+            <br>
+            <input
+            type="email"
+            placeholder="Correo"
+            name="email"
+            id="email"
+            required
+            >
+            <br>
+            <input
+            type="number"
+            placeholder="edad"
+            name="edad"
+            id="edad"
+            required
+            min="18"
+            max="100"
+            >
+            <br>
+        </fieldset>
+            <input
+            type="checkbox"
+            placeholder="Aceptar riesgos"
+            name="ar"
+            id="ar"
+            required
+            >
+            <br>
+            <input
+            type="url"
+            placeholder="URL de Portafolio"
+            name="portafolio"
+            id="portafolio"
+            required
+            >
+            <br>
+            <input
+            type="range"
+            placeholder="Dificultad"
+            name="dificultad"
+            id="dificultad"
+            required
+            >
+            <br>
+            <input
+            type="color"
+            placeholder="Dificultad"
+            name="dificultad"
+            id="dificultad"
+            required
+            >
+            <br>
+            <input
+            type="date"
+            placeholder="Nacimiento"
+            name="nacimiento"
+            id="nacimiento"
+            required
+            >
+            <br>
+            <input type="submit" value="Registrarse">
+            <br>
+            <input type="radio" name="formato" value="mp3" id="mp4">
+            <label for="mp3">mp3</label>
+            <input type="radio" name="formato" value="mp4" id="mp4">
+            <label for="mp4">mp4</label>
+
+            <input type="radio" name="sexo" value="m" id="m">
+            <label for="mp3">Masculino</label>
+            <input type="radio" name="sexo" value="f" id="f">
+            <label for="mp4">Femenino</label>
+            >
+            <button type="submit">Enviar</button>
+            <br>
+            <select name="país">
+                <option value="0" disabled>Escoge un país</option>
+                <option value="méxico" selected>México</option>
+                <option value="Colombia" selected>Colombia</option>
+                <option value="Irlanda" selected>Irlanda</option>
+            </select>
+
+    </form>
+</body> 
+</html>
