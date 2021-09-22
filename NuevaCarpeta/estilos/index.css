@@ -1,0 +1,16 @@
+h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h1:hover {
+    color: red;   
+}
+
+.form-select {
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    margin-top: 20px;
+}
